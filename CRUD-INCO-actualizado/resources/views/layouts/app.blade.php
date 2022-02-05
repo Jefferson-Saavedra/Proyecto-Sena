@@ -21,6 +21,22 @@
 </head>
 <body>
 
+    <style>
+        body {
+        font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-weight: 400;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 100%;
+        display: flex;
+        background-color: white;
+        justify-content: center;
+        margin: 228px 10px;
+    }
+    div#app {
+        width: 50%;
+    }
+    </style>
 
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-orange shadow-sm">
